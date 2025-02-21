@@ -1,0 +1,137 @@
+body {
+    width: 1280px;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("images/start-screen-background.jpg");
+    background-image: url("images/start-screen-gradient-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.Start-Screen {
+    width: 1280px;
+    height: 908px;
+}
+
+header {
+    display: flex;
+    width: 1200px;
+    height: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo {
+    display: flex;
+    width: 184px;
+    height: 60px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.nav {
+    width: 443px;
+    height: 27px;
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.Title {
+    width: 184px;
+    height: 35px;
+    color: #F1CDB3;
+}
+
+.Subtitle {
+    width: 179px;
+    height: 15px;
+    color: #FFFFFF;
+}
+
+nav {
+    width: 443px;
+    height: 27px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.Link-active {
+    width: 757px;
+    height: 16px;
+}
+
+.Link1 {
+    width: 58px;
+    height: 24px;
+}
+
+.Link2 {
+    width: 58px;
+    height: 24px;
+}
+
+.Link3 {
+    width: 106px;
+    height: 24px;
+}
+
+.Start-screen-content {
+    display: flex;
+}
+
+.Content {
+    width: 460px;
+    height: 322px;
+}
+
+.Heading {
+    width: 310px;
+    height: 114px;
+    color: #FFFFFF;
+}
+
+.Subheadind {
+    width: 460px;
+    height: 72px;
+    color: #CDCDCD;
+}
+
+.button-primary {
+    width: 207px;
+    height: 52px;
+    background-color: #F1CDB3;
+    color: #292929;
+}
+
+.About {
+    background-color: #FFFFFF;
+}
+
+.Puppy {
+    width: 698px;
+    height: 728px;
+}
+
+.Dog-and-cat {
+    width: 300px;
+    height: 408px;
+}
