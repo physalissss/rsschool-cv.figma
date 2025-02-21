@@ -20,6 +20,7 @@ body {
     background-image: url("images/start-screen-background.jpg");
     background-image: url("images/start-screen-gradient-background.jpg");
     background-repeat: no-repeat;
+    margin:auto;
 }
 
 header {
@@ -123,6 +124,7 @@ nav {
     width: 1280px;
     height: 588px;
     background-color: #FFFFFF;
+    margin:auto;
 }
 
 .Puppy {
@@ -162,6 +164,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin:auto;
 }
 
 .Card-pets {
@@ -182,6 +185,7 @@ nav {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
+    margin:auto;
 }
 
 .Help-list {
@@ -206,6 +210,8 @@ nav {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    margin:auto;
+
 }
 
 .Donation-dog {
@@ -243,6 +249,7 @@ footer {
     background-image: url("images/footer-gradient-background.png");
     background-repeat: no-repeat;
     background-size:contain;
+    margin:auto;
 }
 
 .footer-puppy {
