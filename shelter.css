@@ -77,7 +77,6 @@ header {
 
 nav {
     margin: 16px 0px 19px 0px;
-    gap: 35px;
     width: 443px;
     display: flex;
     color: #FFFFFF;
@@ -148,6 +147,7 @@ nav {
     font-size: 17px;
     line-height: 22.1px;
     letter-spacing: 1px;
+    border-style: none;
 }
 
 .About {
@@ -162,15 +162,12 @@ nav {
 }
 
 .container-about {
-    width: 1200px;
     height: 408px;
-    margin: 80px 40px 100px 40px;
+    margin: 80px 0px 100px 215px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 
 .Dog-and-cat {
@@ -179,10 +176,46 @@ nav {
 }
 
 .content-about {
+    margin-left: 120px;
+    margin-top: 14px;
+    display: flex;
     width: 430px;
     height: 380px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
+.About-h3 {
+    width: 370px;
+    margin-right: 60px;
+}
+
+h3 {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 2px;
+    margin: 0;
+    color: #545454;
+}
+
+.About-subheadind-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.About-subheadind {
+    margin-top: 25px;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #4C4C4C;
+}
 
 .Pets {
     width: 1280px;
