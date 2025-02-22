@@ -20,31 +20,26 @@ body {
     background-image: url("images/start-screen-background.jpg");
     background-image: url("images/start-screen-gradient-background.jpg");
     background-repeat: no-repeat;
-    margin:auto;
+    margin: auto;
 }
 
 header {
-    width: 1200px;
     height: 60px;
     margin: 30px 40px 0px 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
     align-items: center;
     justify-content: space-between;
 }
 
 .Logo {
-    margin-right: 538px;
-    width: 184px;
     height: 60px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
-    align-content: flex-start;
 }
 
 .nav {
@@ -60,57 +55,86 @@ header {
 }
 
 .Title {
-    width: 184px;
-    height: 35px;
     color: #F1CDB3;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35.2px;
+    letter-spacing: 2px;
 }
 
 .Subtitle {
-    width: 179px;
-    height: 15px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 1.31px;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14.95px;
 }
 
 nav {
+    margin: 16px 0px 19px 0px;
+    gap: 35px;
     width: 443px;
-    height: 27px;
     display: flex;
     color: #FFFFFF;
-}
-
-.Link-active {
-    width: 757px;
-    height: 16px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .Link {
-    margin-left: 35px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0px;
 }
 
+
 .Start-screen-content {
+    margin: 90px 40px 0;
     margin-top: 90px;
     display: flex;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .Content {
-    width: 460px;
+    margin-top: 163px;
     height: 322px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .Heading {
-    margin-top: 163px;
-    width: 310px;
-    height: 114px;
     color: #FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 310px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57.2px;
+    letter-spacing: 0%;
+
 }
 
 .Subheadind {
-    width: 460px;
-    height: 72px;
     color: #CDCDCD;
+    font-family: Arial;
+    width: 460px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
 }
 
 .button-primary {
@@ -118,17 +142,22 @@ nav {
     height: 52px;
     background-color: #F1CDB3;
     color: #292929;
+    border-radius: 100px;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    letter-spacing: 1px;
 }
 
 .About {
     width: 1280px;
     height: 588px;
     background-color: #FFFFFF;
-    margin:auto;
+    margin: auto;
 }
 
 .Puppy {
-    width: 698px;
     height: 728px;
 }
 
@@ -164,7 +193,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin:auto;
+    margin: auto;
 }
 
 .Card-pets {
@@ -185,7 +214,7 @@ nav {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
-    margin:auto;
+    margin: auto;
 }
 
 .Help-list {
@@ -210,7 +239,7 @@ nav {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    margin:auto;
+    margin: auto;
 
 }
 
@@ -231,11 +260,12 @@ nav {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+}
 
 .Donation-card {
-width: 30px;
-height: 23px;
+    width: 30px;
+    height: 23px;
 }
 
 footer {
@@ -248,8 +278,8 @@ footer {
     align-items: center;
     background-image: url("images/footer-gradient-background.png");
     background-repeat: no-repeat;
-    background-size:contain;
-    margin:auto;
+    background-size: contain;
+    margin: auto;
 }
 
 .footer-puppy {
@@ -263,6 +293,6 @@ footer {
 }
 
 .Location-icon {
-width: 22px;
-height: 32px;
+    width: 22px;
+    height: 32px;
 }
