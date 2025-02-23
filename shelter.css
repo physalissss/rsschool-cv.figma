@@ -336,11 +336,12 @@ h3 {
 }
 
 h4 {
+    margin-top: 25px;
     font-family: Georgia;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -361,13 +362,15 @@ h4 {
 }
 
 .second-list {
-    margin-top: 55px;
+    margin-top: 27px;
     gap: 120px;
     display: flex;
 }
 
 .icon-help {
+    width: 60px;
     height: 60px;
+    object-fit: contain;
 }
 
 .list-element {
