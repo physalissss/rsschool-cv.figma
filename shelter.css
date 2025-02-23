@@ -388,11 +388,25 @@ h4 {
     width: 1280px;
     height: 462px;
     background-color: #F6F6F6;
+}
+
+.donation-element {
+    margin: 80px 182px 0px;
+    width: 915px;
+    height: 282px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    margin: auto;
+}
+
+h5 {
+    color: #545454;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 4px;
+    letter-spacing: 1px;
 
 }
 
@@ -402,13 +416,35 @@ h4 {
 }
 
 .Donation-content {
+    width: 380px;
+    height: 282px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.h4-card {
+    width: 274px;
+    height: 23px;
+    margin: 0px;
+    color: #545454;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 .Card {
+    width: 349px;
+    height: 43px;
+    background-color: #F1CDB3;
+    border-radius: 9px;
+}
+
+.card-content {
+    margin: 10px 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -416,7 +452,21 @@ h4 {
     justify-content: center;
 }
 
+.legal-information {
+    margin-top: 27px;
+    width: 380px;
+    height: 72px;
+    color: #B2B2B2;
+    font-family: Arial;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0px;
+}
+
 .Donation-card {
+    margin-right: 15px;
     width: 30px;
     height: 23px;
 }
