@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <title>main</title>
     <link rel="stylesheet" href="shelter.css" />
     <link rel="stylesheet" href="shelter-768px.css" />
+    <link rel="stylesheet" href="shelter-320px.css" />
   </head>
 
   <body>
@@ -18,7 +19,7 @@
               <div class="Subtitle">Shelter for pets in Boston</div>
             </div>
           </div>
-          <nav>
+          <nav class="navigation">
             <div class="Link link-about">About the shelter</div>
             <div class="Link">
               <a class="link-style" href="pets.html" target="_blank">Our pets</a>
@@ -30,10 +31,17 @@
               <a a class="link-style" href="#contacts">Contacts</a>
             </div>
           </nav>
+          <div class="burger-menu">
+            <img class="burger-img" src="images/Burger.png" alt="menu" />
+          </div>
         </header>
         <div class="Start-screen-content">
           <div class="Content">
             <div class="Heading">Not only people need a house</div>
+            <div class="Heading-320">
+              Not only people<br />
+              need a house
+            </div>
             <div class="Subheadind">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</div>
             <div>
               <button class="button-primary">
@@ -41,9 +49,7 @@
               </button>
             </div>
           </div>
-          <div>
-            <img class="Puppy" src="images/start-screen-puppy.png" alt="puppy" />
-          </div>
+          <img class="Puppy" src="images/start-screen-puppy.png" alt="puppy" />
         </div>
       </div>
       <div class="About">
@@ -106,6 +112,54 @@
           </div>
         </div>
       </div>
+
+      <div id="friend" class="pets-320">
+        <div class="Pets-content">
+          <div class="Heading-pets">
+            <h3>
+              Our friends who<br />
+              are looking for a house
+            </h3>
+          </div>
+          <div class="Slider">
+            <div class="Card-pets">
+              <div class="Slider-card">
+                <div>
+                  <img class="slider-pets" src="images/pets-katrine.png" alt="pets-Katrine" />
+                </div>
+                <div class="name-pets">Katrine</div>
+                <button class="button-card">Learn more</button>
+              </div>
+              <div class="Slider-card">
+                <div>
+                  <img class="slider-pets" src="images/pets-jennifer.png" alt="pets-Jennifer" />
+                </div>
+                <div class="name-pets">Jennifer</div>
+                <button class="button-card">Learn more</button>
+              </div>
+              <div class="Slider-card">
+                <div>
+                  <img class="slider-pets" src="images/pets-woody.png" alt="pets-Woody" />
+                </div>
+                <div class="name-pets">Woody</div>
+                <button class="button-card">Learn more</button>
+              </div>
+            </div>
+            <div class="arrows">
+              <div class="slider-button">&larr;</div>
+              <div class="slider-button">&rarr;</div>
+            </div>
+          </div>
+          <div>
+            <button class="button-pets">
+              <div class="text-in-elements">
+                <p>Get to know the rest</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div id="Help" class="Help">
         <div class="heading-help">
           <h3>
@@ -221,6 +275,33 @@
           </div>
           <div class="footer-flex2">
             <div class="h3-footer">We are waiting <br />for your visit</div>
+            <div class="contacts">
+              <div><img class="Location-icon" src="images/pin.png" /></div>
+              <div class="footer-content">1 Central Street, Boston (entrance from the store)</div>
+            </div>
+            <div class="contacts">
+              <div><img class="Location-icon" src="images/pin.png" /></div>
+              <div class="footer-content">18 South Park, London</div>
+            </div>
+          </div>
+          <img class="footer-puppy" src="images/footer-puppy.png" />
+        </div>
+
+
+        <div id="contacts" class="footer-element-320">
+          <div class="footer-flex1">
+            <div class="h3-footer">For questions and<br /> suggestions</div>
+            <div class="contacts">
+              <div><img class="Contacts-icon" src="images/mail.png" /></div>
+              <div class="footer-content">email@shelter.com</div>
+            </div>
+            <div class="contacts">
+              <div><img class="Contacts-icon" src="images/phone.png" /></div>
+              <div class="footer-content">+13 674 567 75 54</div>
+            </div>
+          </div>
+          <div class="footer-flex2">
+            <div class="h3-footer">We are waiting for<br /> your visit</div>
             <div class="contacts">
               <div><img class="Location-icon" src="images/pin.png" /></div>
               <div class="footer-content">1 Central Street, Boston (entrance from the store)</div>

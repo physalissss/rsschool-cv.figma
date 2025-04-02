@@ -60,6 +60,10 @@
     flex-wrap: nowrap;
   }
 
+  .burger-menu {
+    display: none;
+  }
+
   .Title {
     color: #f1cdb3;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -219,6 +223,10 @@
     color: #4c4c4c;
   }
 
+  .pets-320 {
+    display: none;
+  }
+
   .Pets {
     width: 768px;
     background-color: #f6f6f6;
@@ -266,7 +274,7 @@
   .Card-pets {
     width: 580px;
     height: 435px;
-    gap: 40px;
+    gap: 80px;
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
@@ -362,16 +370,6 @@
     line-height: 23px;
     letter-spacing: 1px;
     text-align: center;
-  }
-
-  .Help-list {
-    height: 113px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
   }
 
   .list-grid {
@@ -522,6 +520,10 @@
     line-height: 45.5px;
     letter-spacing: 2px;
     color: #ffffff;
+  }
+
+  .footer-element-320 {
+    display: none;
   }
 
   .footer-content {
