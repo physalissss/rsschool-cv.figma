@@ -1,4 +1,4 @@
-@media (min-width: 1280px) and (max-width: 3000px) {
+@media (min-width: 1279px) and (max-width: 3000px) {
   html {
     scroll-behavior: smooth;
   }
@@ -392,6 +392,7 @@
     margin-top: 27px;
     gap: 120px;
     display: flex;
+    justify-content: center;
   }
 
   .icon-help {
