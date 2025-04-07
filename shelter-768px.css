@@ -21,12 +21,10 @@
   }
 
   .Start-Screen {
-    width: 768px;
     height: 1165px;
     background-image: url("images/768px-start-screen-gradient-background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: auto;
   }
 
   header {
@@ -108,7 +106,7 @@
 
   .Start-screen-content {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
   }
 
@@ -126,7 +124,6 @@
     margin-right: 150px;
     color: #ffffff;
     font-family: Georgia, "Times New Roman", Times, serif;
-    width: 310px;
     font-weight: 400;
     font-size: 44px;
     line-height: 57.2px;
@@ -138,9 +135,9 @@
   }
 
   .Subheadind {
+    margin: 0 30px;
     color: #cdcdcd;
     font-family: Arial;
-    width: 460px;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -172,7 +169,7 @@
 
   .Puppy {
     height: 593px;
-    margin-left: 140px;
+    margin-right: 30px;
   }
 
   .About {
@@ -290,7 +287,7 @@
   .Card-pets {
     width: 580px;
     height: 435px;
-    gap: 80px;
+    gap: 40px;
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
@@ -487,7 +484,7 @@
   }
 
   .legal-information {
-    margin-top: 27px;
+    margin-top: 22px;
     width: 380px;
     height: 72px;
     color: #b2b2b2;

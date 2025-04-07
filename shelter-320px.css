@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   html {
     scroll-behavior: smooth;
   }
@@ -20,12 +20,10 @@
   }
 
   .Start-Screen {
-    width: 320px;
     height: 823px;
     background-image: url("images/320px-start-screen-background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: auto;
   }
 
   header {
@@ -83,6 +81,7 @@
   .Start-screen-content {
     height: 733px;
     display: flex;
+    align-items: flex-end;
     flex-direction: column;
   }
 
@@ -118,8 +117,7 @@
   .Subheadind-320 {
     color: #cdcdcd;
     font-family: Arial;
-    margin-top: 42px;
-    width: 300px;
+    margin: 42px 10px 0px 10px;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
@@ -130,8 +128,7 @@
   .Subheadind-320-text {
     color: #cdcdcd;
     font-family: Arial;
-    margin-bottom: 42px;
-    width: 300px;
+    margin: 0 10px 42px 10px;
     height: 72px;
     font-weight: 400;
     font-size: 15px;
