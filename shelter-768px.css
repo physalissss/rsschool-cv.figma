@@ -602,12 +602,16 @@
     color: #ffffff;
   }
 
+  .Link:hover {
+    border-bottom: 3px solid #f1cdb3;
+  }
+
   .link-style-button {
     text-decoration: none;
     color: #292929;
   }
 
-  .link-about:hover {
+  .link-about {
     border-bottom: 3px solid #f1cdb3;
   }
 }

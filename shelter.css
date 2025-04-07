@@ -106,6 +106,10 @@
     cursor: pointer;
   }
 
+  .Link:hover {
+    border-bottom: 3px solid #f1cdb3;
+  }
+
   .Start-screen-content {
     margin: 90px 40px 0;
     margin-top: 90px;
@@ -598,7 +602,7 @@
     color: #292929;
   }
 
-  .link-about:hover {
+  .link-about {
     border-bottom: 3px solid #f1cdb3;
   }
 }
